@@ -1,0 +1,11 @@
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-repo-found {
+  text-align: center;
+  color: white;
+}

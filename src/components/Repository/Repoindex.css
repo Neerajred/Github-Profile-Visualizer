@@ -1,0 +1,83 @@
+.main-heading {
+  color: #f8fafc;
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.reposContainer {
+  padding: 20px;
+}
+
+.repoLink {
+  text-decoration: none;
+}
+.repoContainer {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #ffffff0f;
+}
+
+.repoHeading {
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #3b82f6;
+  background-color: transparent;
+}
+
+.repoDescription {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.langContainer {
+  background-color: transparent;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  display: flex;
+}
+
+.lang-layout {
+  box-sizing: border-box;
+  height: 32px;
+  padding: 4px 6px 4px 6px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.RepostatsContainer {
+  background-color: transparent;
+  height: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+}
+
+img,
+p {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.loader-position {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

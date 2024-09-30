@@ -1,0 +1,105 @@
+/* Container Styling */
+.homeContainer {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #0f172a; /* Use your existing background color */
+  color: #ffffff; /* Use your existing text color */
+}
+
+/* Search Container */
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 8px, 0px, 0px, 8px;
+  width: 50%;
+  height: 56px;
+  border: 0px;
+  max-width: 500px; /* Max width for larger screens */
+  box-sizing: border-box;
+  background-color: #1d2537; /* Set background for input */
+  color: #94a3b8; /* Set text color */
+}
+
+.searchIcon {
+  padding: 7px;
+  background-color: #4f4e4c; /* Use same background color */
+  border: none;
+  border-radius: 0px, 8px, 8px, 0px;
+  cursor: pointer;
+  color: #ffffff; /* Set text color to white for contrast */
+  font-size: 16px;
+  height: 56px;
+  width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchIcon svg {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* Error Message Styling */
+.error-msg {
+  color: #e63946;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: none;
+}
+
+/* Status Display */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .searchContainer {
+    align-items: center;
+  }
+
+  .searchInput {
+    width: 70%;
+    height: 38px;
+    color: #4f4e4c;
+  }
+
+  .searchIcon {
+    width: 20%;
+    height: 38px;
+    background-color: #4f4e4c;
+  }
+
+  .homeContainer {
+    padding: 10px;
+  }
+
+  .error-msg {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: white;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+}

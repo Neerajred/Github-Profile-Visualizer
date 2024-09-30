@@ -1,0 +1,94 @@
+.repoItemcontainer {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #ffffff0f;
+}
+
+.repoItemHeading {
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #3b82f6;
+  background-color: transparent;
+}
+
+.repoItemdescription {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.repoLanglayout {
+  box-sizing: border-box;
+  height: 32px;
+  padding: 4px 6px 4px 6px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.repoItemLangcontainer {
+  background-color: transparent;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  display: flex;
+}
+
+.RepoItemstatsContainer {
+  background-color: transparent;
+  height: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+}
+
+img,
+p {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.repoItemWatcherCount {
+  box-sizing: content-box;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 161px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 10px;
+  border: 1px solid #fff;
+}
+
+.repoItemContributors {
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.contributorsCount {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #cbd5e1;
+}

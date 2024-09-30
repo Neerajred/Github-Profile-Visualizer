@@ -1,0 +1,169 @@
+/* Container styling */
+.profileContainer {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+/* Profile Image */
+.profileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+/* Name and Bio */
+.profileName {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.loginName {
+  font-size: 18px;
+  color: #fff;
+}
+
+.profileBio {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Stats container */
+.ProfilestatsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.followerContainer {
+  text-align: center;
+}
+
+.border {
+  border-right: 1px solid #e0e0e0;
+}
+
+.followerContainer:last-child .border {
+  border-right: none;
+}
+
+.statusCount {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.statusText {
+  font-size: 14px;
+  color: white;
+}
+
+/* Contact container */
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.contactContainer .followerContainer {
+  width: 30%;
+  text-align: center;
+}
+
+/* Flex container styling for contact icons */
+.contactContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .profileContainer {
+    width: 80%;
+  }
+
+  .profileImg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profileName {
+    font-size: 20px;
+  }
+
+  .loginName,
+  .profileBio,
+  .statusText {
+    font-size: 14px;
+  }
+
+  .ProfilestatsContainer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .followerContainer {
+    border: none;
+    width: 100%;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contactContainer .followerContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profileContainer {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .profileImg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profileName {
+    font-size: 18px;
+  }
+
+  .loginName {
+    font-size: 16px;
+  }
+
+  .profileBio {
+    font-size: 14px;
+  }
+
+  .ProfilestatsContainer,
+  .contactContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .followerContainer {
+    width: 100%;
+  }
+
+  .followerContainer .border {
+    border: none;
+  }
+
+  .contactContainer div {
+    justify-content: center;
+  }
+}
